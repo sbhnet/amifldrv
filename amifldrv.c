@@ -12,6 +12,7 @@
 #include <linux/kernel.h>
 #include <linux/fs.h>
 #include <linux/version.h>
+#include <linux/uaccess.h>
 
 #define LINUX_PRE_2_6   (LINUX_VERSION_CODE <  KERNEL_VERSION(2, 6, 0))
 #define LINUX_POST_2_6  (LINUX_VERSION_CODE >= KERNEL_VERSION(2, 6, 0))
